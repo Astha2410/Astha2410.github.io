@@ -1,0 +1,291 @@
+/* Custom CSS for GeeksforGeeks website */
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+/* Dropdown menu */
+.nav-item dropdown {
+    background-color: #0f472f;
+}
+
+.nav-item dropdown {
+    color: #0f472f;
+}
+
+/* Search bar */
+.search-bar {
+    margin-top: 20px;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    margin-bottom: 20px;
+    border-color: #1c1d1d;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    text-align: center;
+}
+/* Styling for the coding practice section */
+.coding-practice-section {
+    padding: 110px 0;
+    background-color: #f8f9fa;
+}
+
+/* Styling for the challenge cards */
+.coding-practice-section .card {
+    margin-bottom: 20px;
+}
+
+.coding-practice-section .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.coding-practice-section .card-text {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.coding-practice-section .btn-primary {
+    background-color: #45a164;
+    border-color: #45a164;
+}
+
+.coding-practice-section .btn-primary:hover {
+    background-color: #45a164;
+    border-color: #45a164;
+}
+.Web-Development-Section .btn-primary {
+    background-color: #45a164;
+    border-color: #45a164;
+}
+.Web-Development-Section .btn-primary:hover {
+    background-color: #45a164;
+    border-color: #45a164;
+}
+/* Button styles */
+.btn-primary-btn-lg {
+    background-color: #45a164;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a164;
+}
+
+/* Custom styles for the Challenge 1 page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #a0b69c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #074486;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+pre {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px;
+    overflow-x: auto;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid #dfebf6;
+    border-radius: 0.25rem;
+}
+#submitBtn {
+    background-color: #45a164;
+    border-color: #45a164;
+    color: #ffffff;
+}
+
+#submitBtn:hover {
+    background-color: #45a164;
+    border-color: #45a164;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+}
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    color: #0a361f;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #151d74;
+    font-size: bold;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #0a361f;
+    color: #fff;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0a361f;
+    padding: 2px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #0a361f;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-img-top {
+        max-height: 150px;
+    }
+}
+
